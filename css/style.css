@@ -624,9 +624,12 @@ nav .menuBar {
     justify-content: center;
     /* border: 0.2px solid #858792; */
     box-shadow:  0 0 1px 1px #858792;
+    padding: 10px;
 }
 .favourite .company-container .company-box img {
-    /* background-image: #858792; */
+    position: relative;
+    width: 80%;
+    height: 100%;
     opacity: 0.5;
 }
 
@@ -649,7 +652,9 @@ nav .menuBar {
     padding: 15px;
     position: relative;
 }
-
+.footer #p {
+    color: white;
+}
 .footer .footer-container-box .grid-box .col {
     margin: 5px;
 }
@@ -875,8 +880,8 @@ nav .menuBar {
     }
     .grid-container .portret img {
         
-        top: 150px;
-        left: -50px;
+        /* top: 150px; */
+        left: -150px;
     }
     
     .grid-container .icons {
